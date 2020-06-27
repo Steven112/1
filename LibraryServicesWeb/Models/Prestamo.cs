@@ -20,7 +20,7 @@ namespace LibraryServicesWeb.Models
         public virtual List<PrestamosDetalle> Detalle { get; set; }
         public int UsuarioId { get; set; }
 
-        public Prestamo(int prestamoId, int estudianteId,, int libroId, DateTime fechaPrestamo, DateTime fechaDevolucion, List<PrestamosDetalle> detalle)
+        public Prestamo(int prestamoId, int estudianteId, int libroId, DateTime fechaPrestamo, DateTime fechaDevolucion, List<PrestamosDetalle> detalle)
         {
             PrestamoId = prestamoId;
             EstudianteId = estudianteId;
